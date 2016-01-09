@@ -2,3 +2,8 @@
 1. [Geeknote](https://www.geeknote.me/) and [installation instructions](http://www.geeknote.me/install/)
   - Has a pre-requisite in setuptools, follow [wget instructions here](https://pypi.python.org/pypi/setuptools#unix-wget)
   - Once done, run it using: geeknote login
+2. NTP
+  - added: server 0.uk.pool.ntp.org, server 1.uk.pool.ntp.org, server 2.uk.pool.ntp.org, server 3.uk.pool.ntp.org to the server section of /etc/ntp.conf
+  - added execute flags (ugo) to /etc/rc.d/rc.ntpd
+  - followed [instructions in Evernote](https://www.evernote.com/Home.action#n=6fc67b2f-662e-40f2-8061-d78f40c2ebf7&ses=4&sh=2&sds=5&) for resetting the time and checking and setting ntpd is running OK
+  - it should run properly from boot from now on
