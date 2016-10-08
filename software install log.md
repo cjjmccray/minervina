@@ -1,3 +1,7 @@
+# Sat 08-Oct-2016
+1. Rewrote SD card with [Raspbian Jessie Lite (23-Sep-2016)](https://www.raspberrypi.org/downloads/raspbian/) image to start from scratch and get ZoneMinder working under Raspbian.  Previous install under Slackware 14.1 failed to get it working.  There's an installable package under Raspbian.
+
+
 # Sat 09-Jan-2016
 1. [Geeknote](https://www.geeknote.me/) and [installation instructions](http://www.geeknote.me/install/)
   - Has a pre-requisite in setuptools, follow [wget instructions here](https://pypi.python.org/pypi/setuptools#unix-wget)
