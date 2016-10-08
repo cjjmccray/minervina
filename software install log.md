@@ -1,5 +1,9 @@
 # Sat 08-Oct-2016
 1. Rewrote SD card with [Raspbian Jessie Lite (23-Sep-2016)](https://www.raspberrypi.org/downloads/raspbian/) image to start from scratch and get ZoneMinder working under Raspbian.  Previous install under Slackware 14.1 failed to get it working.  There's an installable package under Raspbian.
+2. Some instructions to follow:
+..* http://www.holylinux.net/content/raspberry-pi-webcam-zoneminder
+..* http://blog.snapdragon.cc/2012/07/16/using-raspberry-pi-for-cctv-with-zoneminder/
+..* https://wiki.zoneminder.com/Raspbian
 
 
 # Sat 09-Jan-2016
