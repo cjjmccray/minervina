@@ -1,5 +1,6 @@
 # Sun 09-Oct-2016
 Issues in installing ZoneMinder... using How-to #1 below.
+
 1. In step two, the point:
   - SymLink Apache file to conf.d:
   - sudo ln -s /etc/zm/apache.conf /etc/apache2/conf.d/zoneminder.conf
@@ -7,6 +8,7 @@ Issues in installing ZoneMinder... using How-to #1 below.
   - this can't be right, as the zoneminder URL is reporting http 404: http://192.168.1.32/zm
   - also zm isn't running - fixed ; missing in edit to perl script and tried same startzm that works on Severus (/usr/bin/zmpkg.pl start) but it doesn't work either
 1. In step three, had to use `v4l2-ctl --list-formats` to list the camera (one of the old cheap USB ones I plugged in).
+
 Aborted until next weekend...
 
 # Sat 08-Oct-2016
