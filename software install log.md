@@ -1,5 +1,5 @@
 # Sun 09-Oct-2016
-Issues in installing ZoneMinder... using How-to #1 below.
+Issues in installing ZoneMinder... using How-to #1 below - http://www.holylinux.net/content/raspberry-pi-webcam-zoneminder
 
 1. In step two, the point:
   - SymLink Apache file to conf.d:
@@ -8,6 +8,23 @@ Issues in installing ZoneMinder... using How-to #1 below.
   - this can't be right, as the zoneminder URL is reporting http 404: http://192.168.1.32/zm
   - also zm isn't running - fixed ; missing in edit to perl script and tried same startzm that works on Severus (/usr/bin/zmpkg.pl start) but it doesn't work either
 1. In step three, had to use `v4l2-ctl --list-formats` to list the camera (one of the old cheap USB ones I plugged in).
+1. In 2nd set of instructions - http://blog.snapdragon.cc/2012/07/16/using-raspberry-pi-for-cctv-with-zoneminder/ - there's a command to restart the ZoneMinder service:
+  - `service zoneminder restart`
+  - run it as `service zoneminder status` and here's the output:
+
+```
+pi@minervina:~ $ service zoneminder status
+● zoneminder.service - LSB: Control ZoneMinder as a Service
+   Loaded: loaded (/etc/init.d/zoneminder)
+   Active: active (running) since Sun 2016-10-09 02:50:22 UTC; 12h ago
+  Process: 1080 ExecStart=/etc/init.d/zoneminder start (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/zoneminder.service
+           ├─1204 /usr/bin/perl -wT /usr/bin/zmdc.pl startup
+           ├─1234 /usr/bin/perl -wT /usr/bin/zmfilter.pl
+           ├─1245 /usr/bin/perl -wT /usr/bin/zmaudit.pl -c
+           └─1257 /usr/bin/perl -wT /usr/bin/zmwatch.pl
+pi@minervina:~ $ 
+```
 
 Aborted until next weekend...
 
