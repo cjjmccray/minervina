@@ -9,6 +9,8 @@ Camera 2 in [ZoneMinder](http://minervina/zm/index.php) is a Modect (motion dete
 
 Reference image blend is "outdoors" 12.5% and alarm reference image blend has been set to 25%.  There is a lot of reflection at night from the window and that is triggering a lot of events.  Even with these settings, it's triggering about every minute.
 
+After running for about 30 minutes, the IP address in ZoneMinder went orange, then eventually red.  At the same time the LEDs on the underside had gone off and after a few more minutes on again (without touching anything).  I suspect the device is resetting itself periodically - and is probably offline (the "online"/green LED on the front is difficult to see to check).
+
 # Sat 29-Oct-2016 0100h
 Have fixed the apache issues - [here](https://forums.zoneminder.com/viewtopic.php?t=24370), [here](http://www.linuxquestions.org/questions/ubuntu-63/404-not-found-the-requested-url-'-zm'-was-not-found-on-this-server-4175418431/) and [here](http://lachlanmiskin.com/blog/2012/06/24/localhostzm-can-not-be-found-error-404/) helped - basically the zm.conf apache configuration file had to be moved into a different folder.  I think I've symlinked it and removed the previous file/symlink that wasn't working.  Anyway, the ZoneMinder monitor page is [here](http://minervina/zm/index.php) at is working.
 
