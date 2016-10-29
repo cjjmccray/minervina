@@ -1,3 +1,20 @@
+# Sat 29-Oct-2016
+Have fixed the apache issues - [here](https://forums.zoneminder.com/viewtopic.php?t=24370), [here](http://www.linuxquestions.org/questions/ubuntu-63/404-not-found-the-requested-url-'-zm'-was-not-found-on-this-server-4175418431/) and [here](http://lachlanmiskin.com/blog/2012/06/24/localhostzm-can-not-be-found-error-404/) helped - basically the zm.conf apache configuration file had to be moved into a different folder.  I think I've symlinked it and removed the previous file/symlink that wasn't working.  Anyway, the ZoneMinder monitor page is [here](http://minervina/zm/index.php) at is working.
+
+Camera 1 in [ZoneMinder](http://minervina/zm/index.php) is a Modect (motion detect) monitor on the Porch camera.
+- IP: 192.168.1.241
+- User and password details are in the passwords file on the house server
+- "Remote Host Name" in: user:password@192.168.1.241 format
+- "Remote Host Path" is: /still.jpg
+
+[ZoneMinder's wiki page on cameras](https://wiki.zoneminder.com/Category:Cameras) and [the page for Grandtec WLAN camera](https://wiki.zoneminder.com/Grandtec_WLAN_Camera) are useful to figure this out from.
+
+Timestamps are in UTC - so when triggering at just after 3am BST, the folder created was `/var/cache/zoneminder/events/1/16/10/02/13`.
+
+The [main Apache index page](http://minervina/) should probably be edited in case it's stumbled-upon, or left as-is.  I might open up some way to view the cameras from outside the house eventually, so revealing it's a plain apache2 install could be a security risk.
+
+And I've left the default % movement in modect that will trigger an event.  Reference image blend is 6.25% and alarm reference image blend is 3.125%.  I can't get apache to run on Severus (the living room laptop) - it's failing to start - so cannot check what configuration I'd used previously.  It is triggering frequently - every 5 minutes or so, as the hedge blows into the field-of-view.  Increasing the alarm percentage to 12.5% might fix this.
+
 # Sun 09-Oct-2016
 Issues in installing ZoneMinder... using How-to #1 below - http://www.holylinux.net/content/raspberry-pi-webcam-zoneminder
 
