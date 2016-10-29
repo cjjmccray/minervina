@@ -1,4 +1,15 @@
-# Sat 29-Oct-2016
+# Sat 29-Oct-2016 1930h
+Got the old rear camera working.  Something odd - it takes a few attempts to get it to actually behave properly - at first it appears off, tap the reset button (use a toothpick or a Bic biro ink holder) and it might behave.  If not, tap the default button for 20+ seconds to force a reset (the IP address changes to 192.168.1.100 and the login details change too).
+
+Camera 2 in [ZoneMinder](http://minervina/zm/index.php) is a Modect (motion detect) monitor on the Rear camera (actually mounted in the front 1st floor bedroom watching the road/cars/parking due to next-door's recent shenanigans).
+- IP: 192.168.1.242
+- User and password details are in the passwords file on the house server
+- "Remote Host Name" in: user:password@192.168.1.242 format
+- "Remote Host Path" is: /still.jpg
+
+Reference image blend is "outdoors" 12.5% and alarm reference image blend has been set to 25%.  There is a lot of reflection at night from the window and that is triggering a lot of events.
+
+# Sat 29-Oct-2016 0100h
 Have fixed the apache issues - [here](https://forums.zoneminder.com/viewtopic.php?t=24370), [here](http://www.linuxquestions.org/questions/ubuntu-63/404-not-found-the-requested-url-'-zm'-was-not-found-on-this-server-4175418431/) and [here](http://lachlanmiskin.com/blog/2012/06/24/localhostzm-can-not-be-found-error-404/) helped - basically the zm.conf apache configuration file had to be moved into a different folder.  I think I've symlinked it and removed the previous file/symlink that wasn't working.  Anyway, the ZoneMinder monitor page is [here](http://minervina/zm/index.php) at is working.
 
 Camera 1 in [ZoneMinder](http://minervina/zm/index.php) is a Modect (motion detect) monitor on the Porch camera.
