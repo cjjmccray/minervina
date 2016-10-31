@@ -1,13 +1,20 @@
 # Mon 31-Oct-2016 1335
 Camera 2 working OK (listed in green). Triggering every 10 minutes or so.  Changed from 50%/25% to 12.5%/6.25% as it's not "spotting" cars driving by.  Now triggering every minute or so.
 
+Uploaded the [Grandtec II manual](https://github.com/cjjmccray/minervina/blob/master/Grandtec%20II%20-%20manual%20-%20camerapro.pdf).  Camera 2 is a Grandtec II, and a lot of the details is the same for the older Grandtec I that is Camera 1 (Porch).
+
 # Sun 30-Oct-2016
 Camera 2 hadn't been "contactable" for hours - entry in ZoneMinder had gone red.  Power cycled and ZoneMinder began to detect events again.
 
-Replacement: http://www.robertdyas.co.uk/d-link-day-night-cloud-camera?istCompanyId=bf3344d9-83f5-4abd-b69a-da131f7567d1&istItemId=xxitxaapql&istBid=tzxp&gclid=CjwKEAjwtNbABRCsqO7J0_uJxWYSJAAiVo5LQnJ4Tl_hOeOSNeKxYgMIetZV0OKPy2i5gFmI4GiSRhoCC9Pw_wcB
-http://www.laptopsdirect.co.uk/d-link-dcs-932-wireless-n-day-and-night-home-ip-cctv-camera-dcs-932l-b/version.asp?refsource=Ldadwords&gclid=CjwKEAjwtNbABRCsqO7J0_uJxWYSJAAiVo5LDyvtykUJ-bXttAFqzxslQNzLTztTpJX43B_cJgUBVhoCV87w_wcB
+Replacement: [Robert Dyas](http://www.robertdyas.co.uk/d-link-day-night-cloud-camera?istCompanyId=bf3344d9-83f5-4abd-b69a-da131f7567d1&istItemId=xxitxaapql&istBid=tzxp&gclid=CjwKEAjwtNbABRCsqO7J0_uJxWYSJAAiVo5LQnJ4Tl_hOeOSNeKxYgMIetZV0OKPy2i5gFmI4GiSRhoCC9Pw_wcB) and [Laptops Direct](http://www.laptopsdirect.co.uk/d-link-dcs-932-wireless-n-day-and-night-home-ip-cctv-camera-dcs-932l-b/version.asp?refsource=Ldadwords&gclid=CjwKEAjwtNbABRCsqO7J0_uJxWYSJAAiVo5LDyvtykUJ-bXttAFqzxslQNzLTztTpJX43B_cJgUBVhoCV87w_wcB).
 
-Or look on eBay as there are some 720p cameras in the £20-£25 range.
+Or look on eBay as there are some 720p cameras in the £20-£25 range:
+- [720p with wired and wifi](http://www.ebay.co.uk/itm/HD-720P-Wireless-WiFi-IP-Camera-Home-Shop-Security-Network-CCTV-IR-Night-Vision/262683603380?_trksid=p2047675.c100005.m1851&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D2%26asc%3D39695%26meid%3Dedf89587fd984e69859de54f0c2e0dae%26pid%3D100005%26rk%3D4%26rkt%3D6%26sd%3D262684449832)
+- [720p with wired and wifi](http://www.ebay.co.uk/itm/HD-720P-Wireless-WiFi-IP-Camera-Home-Security-Network-CCTV-P2P-IR-Night-Vision/182249067430?_trksid=p2047675.c100005.m1851&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D2%26asc%3D39695%26meid%3Dedf89587fd984e69859de54f0c2e0dae%26pid%3D100005%26rk%3D2%26rkt%3D6%26mehot%3Dpp%26sd%3D262684449832)
+- [2x 720p wifi only](http://www.ebay.co.uk/itm/2x-720P-IP-Camera-Wifi-Wireless-ONVIF-CCTV-Security-Network-Night-Vision-WebCam-/262684491299?tfrom=262683603380&tpos=top&ttype=price&talgo=undefined)
+- [2x 720p wifi only](http://www.ebay.co.uk/itm/2X-HD-720P-IP-Camera-Infrared-Wifi-Wireless-ONVIF-CCTV-Security-Night-Vision-Net-/262684452841?tfrom=262683603380&tpos=top&ttype=price&talgo=undefined)
+- [wireless (2.4GHz, not wifi) birdhouse camera](http://www.ebay.co.uk/itm/Green-Feathers-Wireless-Bird-Box-Camera-700TVL-with-Night-Vision-Camera-only/251501661127?_trksid=p2047675.c100010.m2109&_trkparms=aid%3D555012%26algo%3DPW.MBE%26ao%3D2%26asc%3D39695%26meid%3D32a615b6d056490ebedd5f5c0b669881%26pid%3D100010%26rk%3D6%26rkt%3D24%26sd%3D262684452841) - note needs receiver (not supplied)
+- [mini video camera (composite + power)](http://www.ebay.co.uk/itm/Mini-Video-Audio-Color-Monochrome-Wired-CMOS-Surveillance-Security-System-Camera/322114811137?_trksid=p2047675.c100005.m1851&_trkparms=aid%3D222007%26algo%3DSIC.MBE%26ao%3D2%26asc%3D39695%26meid%3D22a8b65bc3d946c5883763aebc31bc88%26pid%3D100005%26rk%3D1%26rkt%3D6%26sd%3D262684452841)
 
 
 # Sat 29-Oct-2016 1930h
