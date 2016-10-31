@@ -1,4 +1,4 @@
-# Mon 31-Oct-2016 1335
+# Mon 31-Oct-2016 1335h
 Camera 2 working OK (listed in green). Triggering every 10 minutes or so.  Changed from 50%/25% to 12.5%/6.25% as it's not "spotting" cars driving by.  Now triggering every minute or so.
 
 Uploaded the [Grandtec II manual](https://github.com/cjjmccray/minervina/blob/master/Grandtec%20II%20-%20manual%20-%20camerapro.pdf).  Camera 2 is a Grandtec II, and a lot of the details is the same for the older Grandtec I that is Camera 1 (Porch).
