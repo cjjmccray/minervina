@@ -1,3 +1,12 @@
+# Sun 30-Ocy-2016
+Camera 2 hadn't been "contactable" for hours - entry in ZoneMinder had gone red.  Power cycled and ZoneMinder began to detect events again.
+
+Replacement: http://www.robertdyas.co.uk/d-link-day-night-cloud-camera?istCompanyId=bf3344d9-83f5-4abd-b69a-da131f7567d1&istItemId=xxitxaapql&istBid=tzxp&gclid=CjwKEAjwtNbABRCsqO7J0_uJxWYSJAAiVo5LQnJ4Tl_hOeOSNeKxYgMIetZV0OKPy2i5gFmI4GiSRhoCC9Pw_wcB
+http://www.laptopsdirect.co.uk/d-link-dcs-932-wireless-n-day-and-night-home-ip-cctv-camera-dcs-932l-b/version.asp?refsource=Ldadwords&gclid=CjwKEAjwtNbABRCsqO7J0_uJxWYSJAAiVo5LDyvtykUJ-bXttAFqzxslQNzLTztTpJX43B_cJgUBVhoCV87w_wcB
+
+Or look on eBay as there are some 720p cameras in the £20-£25 range.
+
+
 # Sat 29-Oct-2016 1930h
 Got the old rear camera working.  Something odd - it takes a few attempts to get it to actually behave properly - at first it appears off, tap the reset button (use a toothpick or a Bic biro ink holder) and it might behave.  If not, tap the default button for 20+ seconds to force a reset (the IP address changes to 192.168.1.100 and the login details change too).
 
