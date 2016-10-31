@@ -1,4 +1,7 @@
-# Sun 30-Ocy-2016
+# Mon 31-Oct-2016 1335
+Camera 2 working OK (listed in green). Triggering every 10 minutes or so.  Changed from 50%/25% to 12.5%/6.25% as it's not "spotting" cars driving by.  Now triggering every minute or so.
+
+# Sun 30-Oct-2016
 Camera 2 hadn't been "contactable" for hours - entry in ZoneMinder had gone red.  Power cycled and ZoneMinder began to detect events again.
 
 Replacement: http://www.robertdyas.co.uk/d-link-day-night-cloud-camera?istCompanyId=bf3344d9-83f5-4abd-b69a-da131f7567d1&istItemId=xxitxaapql&istBid=tzxp&gclid=CjwKEAjwtNbABRCsqO7J0_uJxWYSJAAiVo5LQnJ4Tl_hOeOSNeKxYgMIetZV0OKPy2i5gFmI4GiSRhoCC9Pw_wcB
