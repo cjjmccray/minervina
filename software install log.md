@@ -1,3 +1,10 @@
+# Mon 07-Nov-2016 0115h
+Reconfiguring new memory card after complete/catastrophic failure.
+
+Changed hostname OK, but following same instructions as before to change IP address to static 192.168.1.32 / 255.255.254.0 / 192.168.0.2 (see notes below for this) and still picking-up DHCP IP address 192.168.1.141.
+
+`/etc/network/interfaces` for `eth0` has: `iface eth0 inet manual` not `iface eth0 inet dhcp` or `iface eth0 inet static` as would be expected.  Tried both static and manual and no effect.
+
 # Mon 31-Oct-2016 1335h
 Camera 2 working OK (listed in green). Triggering every 10 minutes or so.  Changed from 50%/25% to 12.5%/6.25% as it's not "spotting" cars driving by.  Now triggering every minute or so.
 
@@ -83,7 +90,7 @@ Aborted until next weekend...
   - How-to #1 - http://www.holylinux.net/content/raspberry-pi-webcam-zoneminder
   - How-to #2 - http://blog.snapdragon.cc/2012/07/16/using-raspberry-pi-for-cctv-with-zoneminder/
   - How-to #3 - https://wiki.zoneminder.com/Raspbian
-1. Changed IP to 192.168.1.32, changed hostname to 'minervina', changed pi user login password.
+1. [Changed IP to 192.168.1.32](https://www.modmypi.com/blog/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address), [changed hostname to 'minervina'](http://www.howtogeek.com/167195/how-to-change-your-raspberry-pi-or-other-linux-devices-hostname/), changed pi user login password.
 
 # Sat 09-Jan-2016
 1. [Geeknote](https://www.geeknote.me/) and [installation instructions](http://www.geeknote.me/install/)
