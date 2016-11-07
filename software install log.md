@@ -5,6 +5,8 @@ Changed hostname OK, but following same instructions as before to change IP addr
 
 `/etc/network/interfaces` for `eth0` has: `iface eth0 inet manual` not `iface eth0 inet dhcp` or `iface eth0 inet static` as would be expected.  Tried both static and manual and no effect.
 
+Further research [here](http://askubuntu.com/questions/645000/what-is-the-difference-between-iface-eth0-inet-manual-and-iface-eth0-inet-static) and [here](https://wiki.debian.org/NetworkConfiguration#Configuring_the_interface_manually) and I think it needs an `auto eth0` line above and the `broadcast` and `network` lines that were introduced from [here](https://www.modmypi.com/blog/tutorial-how-to-give-your-raspberry-pi-a-static-ip-address) can be dropped.
+
 # Mon 31-Oct-2016 1335h
 Camera 2 working OK (listed in green). Triggering every 10 minutes or so.  Changed from 50%/25% to 12.5%/6.25% as it's not "spotting" cars driving by.  Now triggering every minute or so.
 
