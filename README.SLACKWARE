@@ -1,4 +1,4 @@
-```README.SLACKWARE
+README.SLACKWARE
 
 This build uses the mmap method for camera access, as opposed to shared memory.
 That means, there is no need to configure shared memory limits any more.
@@ -47,4 +47,4 @@ on how to counter the massive amount of syslog spam that ZoneMinder generates.
 
 The ZoneMinder web interface shall be available at http://hostname/zm/
 
-Have fun!```
+Have fun!
