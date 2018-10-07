@@ -1,3 +1,15 @@
+# Sun 07-Oct-2018
+Returning to this madness.  There is now a SlackBuild for ZoneMinder so am returning to using Slackware 14.2.
+
+Same Raspberry Pi, one of the earliest ones I bought, a Model B+, the old 2Tb Buffalo hard disk, and a 16Gb memory card.  In testing the 16Gb memory card used before seems to have a fault, or some other corruption had gone on.
+
+Following [these instructions on the Slackware website](https://docs.slackware.com/howtos:software:install_zoneminder) - that were added on 20th May 2018 - we need:
+
+- [MariaDB](https://docs.slackware.com/howtos:databases:install_mariadb_on_slackware)
+- [FFmpeg](https://slackbuilds.org/repository/14.2/multimedia/ffmpeg/) - note there is a [a later version here](http://slackware.uk/people/alien/restricted_slackbuilds/ffmpeg/pkg64/14.2/) but I've used the SlackBuilds one
+  - FFmpeg took *hours* to create the SlackPKG, something like 8 *hours*
+- [ZoneMinder](https://slackbuilds.org/repository/14.2/system/ZoneMinder/)
+
 # Mon 07-Nov-2016 0115h
 Reconfiguring new memory card after complete/catastrophic failure.
 
