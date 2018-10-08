@@ -16,6 +16,16 @@ Need to check:
 - MariaDB (done, probably needs configuring and securing)
 - PHP - presumably v5
 
+Perl errors - the following Perl scripts are missing:
+
+- Date::Manip
+  - perl -MCPAN -e "install Date::Manip"
+  - First time this is run Perl will prompt to be configured, I accepted the default to auto configure most things
+- LWP::UserAgent
+  - perl -MCPAN -e "install LWP::UserAgent"
+- Sys::Mmap
+  - perl -MCPAN -e "install Sys::Mmap"
+
 
 # Mon 07-Nov-2016 0115h
 Reconfiguring new memory card after complete/catastrophic failure.
